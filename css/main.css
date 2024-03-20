@@ -24,6 +24,11 @@ header{
     font-size: 1em;
 }
 
+.linkMenu{
+    text-decoration: none;
+    color: white;
+}
+
 main{
     display:flex;
     flex-direction: column  ;
