@@ -39,7 +39,96 @@
         <h1 class="titulo">Cocinando Ando</h1>
     </header>
     <main>
-        
+        <form action="ejemplo" class="formulario">
+            <h2>Formulario de Registro</h2>
+            <fieldset class="datos">
+                <legend>Datos personales: </legend>
+                    <label for="nombre" id="labelNombre">Nombre: </label>
+                    <input type="text" name="nombre" id="nombre" placeholder="Ingrese su Nombre">
+                    <label for="apellido" id="labelApellido">apellido</label>
+                    <input type="text" name="apellido" id="apellido" placeholder="Ingrese su Apellido">
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend class="direccion">Dirección: </legend>
+                    <label for="calle">Calle: </label>
+                    <input type="text" name="calle" id="calle" placeholder="Ingrese su calle">
+                    <label for="numero">Número: </label>
+                    <input type="text" name="numero" id="numero" placeholder="Ingrese el número">
+                    <label for="ciudad">Ciudad: </label>
+                    <input type="text" name="cuidad" id="ciudad" placeholder="Ingrese su ciudad">
+                    <label for="codigoPostal">Código postal: </label>
+                    <input type="text" name="codigoPostal" id="codigoPostal">
+            </fieldset>
+            <br>
+            <fieldset>
+                <label for="telefono">Teléfono: </label>
+                <input type="tel" name="telefono" id="telefono" placeholder="x-xxx-xxxx">
+                <label for="fechaNacimiento">Fecha de Nacimiento: </label>
+                <input type="date" name="fechaNacimiento" id="fechaNacimiento">
+                <label for="correo">E-mail: </label>
+                <input type="email" name="correo" id="correo" placeholder="mail@dominio.com">
+                <label for="clave">Clave: </label>
+                <input type="password" name="clave" id="class">
+                <label for="link">Link del TP 3: </label>
+                <input type="url" name="link" id="link">
+            </fieldset>
+            <br>
+            <fieldset class="seccion-genero">
+                <p class="genero">
+                    Género: 
+                </p>
+                
+                <input type="radio" name="genero" id="hombre">
+                <label for="genero">Hombre</label>
+                <input type="radio" name="genero" id="mujer" class="radio">
+                <label for="genero">Mujer</label>
+                <input type="radio" name="genero" id="otro">
+                <label for="genero">otro</label>
+            </fieldset>
+            <br>
+            <fieldset class="seccion-conocimientos">
+                <p class="conocimientos">
+                    Conocimientos previos: 
+                </p>
+
+                <input type="checkbox" name="conocimientos" id="html">
+                <label for="html">HTML</label>
+                <input type="checkbox" name="conocimientos" id="css">
+                <label for="css">CSS</label>
+                <input type="checkbox" name="conocimientos" id="Bootstrap">
+                <label for="bootstrap">Bootstrap</label>
+                <input type="checkbox" name="conocimientos" id="javascript">
+                <label for="javascript">Javascript</label>
+                <input type="checkbox" name="conocimientos" id="typescript">
+                <label for="typescript">Typescript</label>
+                <input type="checkbox" name="conocimientos" id="angular">
+                <label for="angular">Angular</label>
+                <input type="checkbox" name="conocimientos" id="baseDatos">
+                <label for="baseDatos">Base de datos</label>
+                <input type="checkbox" name="conocimientos" id="python">
+                <label for="python">Python</label>
+                <input type="checkbox" name="conocimientos" id="django">
+                <label for="django">Django</label>
+            </fieldset>
+            <br>
+            <fieldset>
+                <label for="estudios">Estudios: </label>
+                <select name="estudios" id="estudios">
+                    <option value="">--Seleccione su nivel de estudios--</option>
+                    <option value="primaria">Primaria</option>
+                    <option value="secundaria">Secundaria</option>
+                    <option value="universitarios">Universitarios</option>
+                </select>
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend>Comentarios: </legend>
+                <textarea name="comentarios" id="comentarios" cols="30" rows="10"></textarea>
+            </fieldset>
+            <br>
+            <input type="submit" value="ENVIAR">
+        </form>
     </main>
     
 </body>
@@ -50,6 +139,7 @@
         <img src="/assets/imagenes/icons8-pinterest-16.png" alt="Logo de pinterest" class="iconoImg">
         <img src="/assets/imagenes/icons8-instagram-16.png" alt="Logo de instagram" class="iconoImg">
         <img src="/assets/imagenes/icons8-linkedin-16.png" alt="Logo de linkedin" class="iconoImg">
+        <img src="/assets/imagenes/icons8-github-16.png" alt="Logo de GitHub" class="iconoImg">
     </div>
     <p class="txtFooter"> Derechos Reservados @2024</p>
 </footer>

@@ -1,6 +1,7 @@
 *{
     margin: 0%;
     padding: 0%;
+    max-height: 100vh;
 }
 
 header{
@@ -46,7 +47,7 @@ main{
 }
 
 .imgSopa{
-    width: 25em;
+    width: 20em;
     border-radius: 10%;
     margin: 2em 4em;
     margin-bottom: 0em;
@@ -85,4 +86,28 @@ footer{
     padding: 0.05em;
     margin-bottom: 1%;
     
+}
+
+/*formulario.html*/
+
+[class^="seccion"]{      /*este selector me permite tomar todas las clases que inicien con seccion*/
+    display: flex;
+    flex-direction: row;
+}
+form{
+    max-width: 90%;
+    margin: 1% 15%;
+}
+fieldset{
+    border: none;
+    padding: ;
+}
+
+.genero .conocimientos .estudios{
+    display: block;
+    
+}
+
+.radio{
+    float: left;
 }
