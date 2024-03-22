@@ -90,17 +90,36 @@ footer{
 
 /*formulario.html*/
 
-[class^="seccion"]{      /*este selector me permite tomar todas las clases que inicien con seccion*/
-    display: flex;
-    flex-direction: row;
-}
 form{
     max-width: 90%;
     margin: 1% 15%;
 }
+
+/*este selector me permite tomar todas las clases que inicien con seccion*/
+    
+
+
+[class^="datos"]{
+    display: flex;
+    flex-direction: row;
+    
+}
+
 fieldset{
     border: none;
     padding: ;
+}
+
+legend{
+    margin:0.5em;
+}
+
+input, label, select{
+    margin-left: 0.5em;
+}
+
+legend{
+    margin-left: -0.1em;
 }
 
 .genero .conocimientos .estudios{
@@ -110,4 +129,18 @@ fieldset{
 
 .radio{
     float: left;
+}
+
+.datos-enviar{
+    padding: 1em;
+    border-radius: 1em;
+    font-weight: 600;
+    background-color: rgb(126, 120, 120);
+    color: white;
+    border-style: none;
+    margin-top: -0.5%;    
+}
+
+footer{
+    margin-top: -0.3%;
 }
